@@ -1,0 +1,59 @@
+body {								/* Тело */ /* Внешний вид формы */
+font: 11px Verdana, sans-serif;		/* размер-шрифт вердана- если не будет любой */
+color: #333333;						/* цвет шрифта */
+}
+
+#wrapper {							/* идентификатор */
+width: 500px;						/* ширина */
+}
+
+.question {							/* класс */
+font-weight: bold;					/* жирный шрифт для класса */
+}
+
+fieldset {							/* рамка */	
+padding:10px;						/* отступ */
+border:1px solid #cccccc;			/* рамк размер-стиль-цвет рамки */
+margin:10px;						/* отступ */
+background-color: #D0FF00;			/* цвет фона */
+}
+
+textarea {							/* селектор ареа текстовой область */
+border: 1px solid #333333;			/* рамка-размер-стиль-цвет */
+background-color:#D0FF00; 			/* цвет фона рамки */
+width: 470px;						/* ширина */
+margin:2px 10px;					/* отступ */
+font: 12px Verdana;					/* размер-шрифт текста */
+padding: 0 7px;						/* отступы текста внутри ввода*/
+}
+
+textarea:focus {					/* состояния фокус */
+border: 1px solid #333333;			/* состояния рамки */ /* изменит рамку и цв*/
+background-color: #ffffff;			/* состояния фонового цвета белый */
+
+}
+
+.tp {								/* класс тп */
+margin-left: 10px;					/* отступ */
+}
+
+.input {										/* класс для инпута */
+border: 1px solid #333333;						/* рамка-размер-стиль-цвет рамки */
+height: 27px;									/* высота ввода инпута */
+background-image: url(../img/inputbg.jpg);		/* фон ввода инпута */
+background-repeat: repeat-x;					/**/
+width: 300px;									/* ширина ввода инпута */
+}
+
+.input:focus {						/* состояния фокус */
+border: 2px solid #1E6193;			/* изменения рамки */
+background: none;					/* отключение фонового изображения */
+background-color: #ffffff;			/* изменения фонового цвета белый */
+font: 12px Verdana;					/* размер и стиль шрифта теста внутри инпут */
+line-height: 27px;					/* высота ввода текста для експлорер */
+padding: 0 7px;						/* отступы текста внутри ввода */
+}
+
+label {
+cursor: pointer;					/* изменения курсор при касаний на вопросов */
+}

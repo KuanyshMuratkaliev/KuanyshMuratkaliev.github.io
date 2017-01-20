@@ -1,0 +1,260 @@
+body {
+width:500px;
+height:3500 ;
+margin: 0 auto;
+padding: 0 auto;
+font-family: Arial;
+background-color: #DCDCDC;
+background-repeat:repeat-x;
+min-width: 650px;
+max-width: 1100px;
+}
+
+#wrapper {
+width:500px;
+height:3500px;
+outline:1px solid #000000;
+padding:0 auto;
+margin: 0 auto;
+background-color: #FFFFFF;
+background-image: url(../img/header_fon.png);
+background-repeat: repeat-x;
+min-width: 650px;
+max-width: 1100px;
+}
+
+#ckstom {
+position: absolute;
+right: 900px;
+}
+
+
+#graf {
+color: #007898;
+font-size: 24px;
+font-weight: bold;
+position: absolute;
+top:40px;
+right:550px;
+}
+
+#online {
+position: absolute;
+top: 40px;
+right: 310px;
+}
+
+#number {
+font-size: 22px;
+position: absolute;
+top: 40px;
+right: 200px;
+color: #007898;
+}
+
+#number2 {
+font-size: 25px;
+font-weight: bold;
+position: absolute;
+top: 35px;
+right: 80px;
+color: #007898;
+}
+
+#menu {
+width: 1030px;
+height: 400px;
+position:absolute;
+top: 185px;
+left: 160px;
+outline: 1px solid #000000;
+background-image: url(../img/sliders12.jpg);
+background-size: 1050px 400px;
+}
+
+#nashi_akcii {
+position: absolute;
+outline: 1px solid #000000;
+width: 1030px;
+height: 33px;
+top: 586px;
+left: 160px;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #007898;
+}
+
+fieldset {								
+width:250px;
+height: 170px;
+padding:70px;
+border:1px solid #cccccc;			
+margin:0 auto;
+position: absolute;
+top: 625px;	
+left: 160px;					
+background-color: #D0FF00;
+background-image: url(../img/block_zayavka_fon.jpg);			
+}
+
+
+#otprzayavka {
+font-size:25px;
+position:absolute;
+top:20px;
+left:40px;
+}
+
+#prymoseichas {
+font-size:25px;
+position:absolute;
+top:50px;
+left:60px;
+}
+
+#input1 {
+position: absolute;
+left:95px;
+}
+
+#input2 {
+position: absolute;
+left:95px;
+}
+
+#input3 {
+position: absolute;
+left:95px;
+}
+
+#ceny1 {
+font-size:35px;
+font-weight:bold;
+color:#8B0000;
+position:absolute;
+top:640px;
+left:770px;
+}
+
+#ceny2 {
+font-size:25px;
+font-weight:bold;
+color:#000000;
+position:absolute;
+top:700px;
+left:700px;
+}
+
+#ceny3 {
+font-size:25px;
+font-weight:bold;
+color:#000000;
+position:absolute;
+top:900px;
+left:660px;
+}
+
+#risunok1 {
+position: absolute;
+top: 1000px;
+left: 250px;
+}
+
+#risunok2 {
+position: absolute;
+top: 1000px;
+left: 600px;
+}
+
+#risunok3 {
+position: absolute;
+top: 1000px;
+left: 1000px;
+}
+
+#risunok4 {
+position: absolute;
+top: 1200px;
+left: 250px;
+}
+
+#risunok5 {
+position: absolute;
+top: 1200px;
+left: 600px;
+}
+#risunok6 {
+position: absolute;
+top: 1200px;
+left: 1000px;
+}
+
+#o_nas {
+width: 1030px;
+height: 850px;
+position: absolute;
+top: 1450px;
+left: 160px;
+outline:1px solid #000000;
+background-image: url(../img/fon_bottom_block.jpg);
+}
+
+#image7 {
+position:absolute;
+top:350px;
+left:70px;
+}
+
+#onas {
+width:1000px;
+height:750px;
+outline:1px solid #000000;
+position:absolute;
+top:1500px;
+left:170px;
+background-color:rgba(255, 255, 255, 0.75);
+text-align:center;
+font-weight: bold;
+font-size:30px;
+}
+
+#text_onas {
+font-size:20px;
+text-align:left;
+}
+
+
+#photo1 {
+position: absolute;
+top: 800px;
+left: 50px;
+}
+
+#photo2 {
+position: absolute;
+top: 800px;
+right:300px;
+}
+
+#kontakty {
+text-align: left;
+font-size: 20px;
+font-weight: bold;
+position: absolute;
+top: 800px;
+left: 150px;
+color: #00566D;
+}
+
+#kontakty2 {
+text-align:left;
+font-size: 20px;
+font-weight: bold;
+position: absolute;
+top: 800px;
+right:-10px;
+color: #00566D;
+}
+

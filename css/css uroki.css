@@ -1,0 +1,87 @@
+p {
+	color:#0000FF;           /*Цвет всех абзацов на синний*/
+}
+
+p {
+	font-family: Tahoma;     /* Шрифт текста */
+	font-size: 90%;			 /* Размер шрифта %, em, px, pt, small, large, medium */
+	text-indent: 25px;		 /* Текст с красной строки */
+	line-height: 20px;		 /* Межстрочный интервал Высота строки */
+							 /* Расстояние между словами word-spacing */
+							/*letter-spacing:3px;Расстояние между буквами */
+}
+
+#header {
+color:#c32017;		      		/*Цвет заголовок на красный цвет*/
+text-align: center;			  /* Выравнение текста по центру, right,left */		
+text-transform: capitalize;    /* Текст из больших букв uppercase, Текст из маленьких букв lowecase, Каждая первая буква слов отображается большими capitalize; */
+border: 2px solid #9ACD32;
+width: 550px;					/* ширина блока*/
+height: 300px;					/* высота блока */
+overflow: auto; 				/* Если не помещяется тест то будет полоса прокроутки */
+overflow: hidden;				/* спрятает не помешенных */
+overflow: scroll;				/* полоса прокрутки принудлительно и не активны */
+overflow: visible;				/* по умолчанию */
+
+}
+
+.new {
+	color:#FF4500;           /*Селктор классы текст цвета оранжевый */
+	font: italic bold 10px Tahoma; /* краткая форма */
+}
+
+ul li {
+	color: #FF00AE;
+}
+
+a: link {
+	color: #FF4500;			 /* Цвет Ссылка */
+}
+
+a: visited {
+color: #FF4500;
+}
+
+a:hover {					/* Цвет ссылки при наведений розовый */
+color: #FF00AE;
+}
+
+a:active {
+color: #008000;				/* Цвет Ссылки при нажатий зеленый */
+}
+
+.new2 {						/* Курсив */
+font-style: italic;
+color: #BDB76B;
+}
+
+.new3{						/* Жирный шрифт normal,bold,100-900 */
+font-weight: bold;
+color: #006400;
+text-align: center;
+}
+
+.new4 {
+text-decoration:underline;   /* Подчеркивание текста underline, Надчеркивание overline, line-through */
+}
+
+a {
+text-decoration: none;		 /* Убрать подчеркивание ссылок */
+border-bottom: 1px dashed #FF00AE; /*рамки ссылок*/
+color: #000000
+}
+
+.new5 {
+text-align: justify;         /* выравнивание текста по обеим краям,  */
+}
+
+ul {
+list-style-type: ;			/* стили маркеов */
+list-style-image: inside url(../         /); ;			/* картинка вместо маркера */
+list-style-position: inside square outside;				/* картинку закидывает вместе с рамкой */
+}
+
+ol li {
+display:inline; /*блочный элемент преврящяет в строенный элемент*/
+display: block;
+}

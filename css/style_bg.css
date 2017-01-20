@@ -1,0 +1,33 @@
+body {
+background-color: #778899;										/* фоновый цвет */
+background-image: url(../img/ava7patterns_pattern_1737.png);	/* фоновое изображения */
+background-repeat:repeat;										/* повторять изображения */
+margin: 0;														/* отступы выкл */
+padding: 0;														/* отступы выкл */
+}	
+
+#main {											/* идентификатор блока див */
+width: 800px;
+height: 760px;									/* высота блока */
+margin:29px auto;								/* верхний и нижний отступ */
+outline: 0px solid #800000; 					/* контур */
+background-image: url(../img/Desert.jpg);		/* фон блока изображения */
+}
+
+#main h1 {										/* идентификатор н1 заголовок стр */
+text-align: center;								/* выравнение текста по центру,если right по правому,left по левому */
+outline:0px solid #800000; 						/* граница элемента-размер-стиль-цвет */
+padding-top:182px;								/* пространство между содержимым элемента и бордюром. */
+font:36px Verdana;								/* размер текста и шрифт текста */
+background-image:url(../img/skype_2708.png); 	/* логотип */
+background-repeat: no-repeat;					/* не повторять логотип */
+background-position: 70px 115px;				/* позиция логотипа */
+}
+
+#wrapper {										/* идентификатор блока див */
+outline:0px solid #cc0000;						/* граница элемента */
+background-image:url(../img/tel.jpg); 			/* Изображения */
+background-repeat: no-repeat;					/* Изображения не повторялась */
+background-position: 0px 150px;					/* Позиция изображений */
+background-attachment: fixed;					/* свойства для закрепление */
+}

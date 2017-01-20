@@ -1,0 +1,42 @@
+#wrapper {
+width: 800px;
+outline: 1px solid #000000;
+padding: 10px;
+margin: 0 auto;
+}
+
+#header {						/* колонка 1 шапка */
+height: 77px;					/* высота */
+background-color:#DC143C;		/* фоновый цвет кримсон */ 
+margin-bottom: 12px; 			/* нижний отступ */
+}
+
+#sidebar {						/* колонка 2 меню */
+background-color:#A9A9A9;		/* фоновый цвет серый */
+margin-bottom: 12px; 			/* нижний отступ */
+width: 150px;					/* ширина */
+float: left;					/* плавающий с лева */
+}
+
+#sidebarR {						/* колонка 3 меню 2 */
+background-color:#A9A9A9;		/* фоновый цвет серый */
+margin-bottom: 12px; 			/* нижний отступ */
+width: 150px;					/* ширина */
+float: right;					/* плавающий с права */
+}
+		
+#content {						/* колонка 4 по середине */
+background-color:#FFDD00;		/* фоновый цвет желтый */
+margin:0 auto 12px auto;		/* верхний-правый-нижний-левый отступ */
+width: 480px; 					/* ширина */
+}
+
+#footer {						/* колонка 5 нижняя */
+height: 77px;					/* высота */
+background-color:#000000;		/* фоновый цвет черный */
+margin-bottom: 12px; 			/* нижний отступ */
+}
+
+.clear {						
+clear: both;
+}

@@ -1,0 +1,35 @@
+body {
+background-color: #D3D3D3;
+background-image: url(../img/ava7patterns_pattern_1737.png);
+font: 15px Georgia;
+color: #A52A2A;
+}
+
+#wrapper {
+margin: 30px auto;
+background-color: #F4F4F4;
+height: 800px;
+min-width: 650px;
+max-width: 1100px;
+}
+
+#saidbarL {
+width: 200px;
+height: 800px;
+float: left;
+outline: 1px solid #cc0000;
+}
+
+#saidbarR {
+width: 200px;
+height: 800px;
+float: right;
+outline: 1px solid #cc0000;
+}
+
+#content {						/* колонка 4 по середине */
+height: 800px;
+margin: 0 220px 0 220px;
+outline: 1px solid #333333;
+}
+

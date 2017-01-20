@@ -1,0 +1,101 @@
+body {							/* тело */
+font: 14px Tahoma;				/* размер весь текста и стиль шрифта весь текста */
+color:#6A5ACD;					/* цвет весь текст */
+padding:20px;					/* пространство между содержимым элемента и бордюром. */
+margin:auto;					/* внешнее пространство между бордюром и невидимой границей прямоугольника. top,right,bottom,left */
+width:1100px;					/* ширина внешнего простра */
+text-indent:25px;				/* текст с красной строки */
+text-align: justify;			/* выравнивание текста по обеим краям */
+background-color:#ffffff;
+border: 1px solid #FFE4C4;
+}
+
+#header {						/* идентификатор заголовочного текста */
+text-align:center;			  	/* выравнение текста по центру,если right по правому,left по левому */		
+text-transform:capitalize;    	/* каждая первая буква слов отображается большими capitalize;Весь текст с большим букваами uppercase,Текст из маленьких букв lowecase */
+padding:40px 20px;
+margin:20px auto 10px auto;		/* внешнее пространство между бордюром и невидимой границей прямоугольника. top,right,bottom,left */
+width: 300px;					/* ширина внешнего простра */
+color: #0000FF;					/* цвет заголовочного текста */
+background-color:#000000;
+border:4px solid #0000FF;
+}
+
+.new {							/* класс */
+color:#FF4500;                  /* селктор классы текст цвета оранжевый */
+font:italic bold 10px Tahoma;   /* краткая форма курсив-жирный-размер-стильшрифта */
+}
+
+.new2 {							/* класс номер 2 */
+font-style: italic;				/* Курсив */
+color: #0000FF;					/* цвет текста */
+}
+
+.new3{							/* класс номер 3*/
+font-weight: bold;				/* жирный шрифт normal,bold,100-900 */
+text-align: center;				/* выравнение текста по центру */
+}
+
+.new4 {							/* класс номер 4*/
+text-decoration:underline;   	/* Подчеркивание текста underline, Надчеркивание overline, line-through */
+}
+
+.new5 {							/* класс номер 5*/
+text-align: justify;        	/* выравнивание текста по обеим краям */
+}
+
+.new6 {							/* класс номер 6*/
+text-decoration: line-through;	/* вычеркивание */
+}
+
+ul {							/* маркированный список */
+color: #00FFA9;					/* цвет маркеров */
+list-style-type: square;		/* стиль маркера square квадратный */
+}
+
+a {									/* ссылка */
+text-decoration: none;		 		/* убрать подчеркивание ссылок */
+border-bottom:1px dashed #FF00AE; 	/* рамки ссылок-размер-стиль-цвет*/
+}
+
+a:hover {							/* Цвет ссылки при наведений розовый */
+color: #FF00AE;
+}
+
+a:active {							/* Цвет Ссылки при нажатий зеленый */
+color: #008000;						
+}
+
+table, td, th{				
+border:1px solid #8B0000;
+text-align: center;
+}
+
+table {
+width: 400px;
+border-collapse: collapse;
+margin: 30px auto;
+}
+
+td, th {
+height: 50px;
+padding: 5px;
+vertical-align: middle;
+background-color: #ffffff;
+}
+
+th {
+background-color: #D0FF00;
+}
+
+tr.blue td {
+background-color: #7FFFD4;
+}
+
+#myimg {
+float:right;
+border: none;
+margin: 20px 0 20px 40px;
+outline: 1px solid #FFE4C4;
+}
+

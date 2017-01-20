@@ -1,0 +1,55 @@
+body {
+background-color: #D3D3D3;
+background-image: url(../img/ava7patterns_pattern_1737.png);
+font: 15px Georgia;
+color: #A52A2A;
+}
+
+#wrapper {
+width: 650px;
+margin: 30px auto;
+background-color: #F4F4F4;
+}
+
+#header {						
+height: 75px;					
+background-image: url(../img/redHeader.png);
+background-repeat: no-repeat;	
+position: relative;		
+}
+
+#content {						/* колонка 4 по середине */
+padding: 20px 30px;
+}
+
+#new {
+position:absolute;				/* обсолютное позиционирование */
+top:0px;						/* вверхний отступ */
+left:0px;						/* левый отступ */
+}
+
+#button {
+position: absolute;
+left:294px;
+top: -14px;
+z-index: 1;
+}
+
+#bird {
+position: absolute;
+left: 272px;
+top: -3px;
+z-index: 2;
+}
+
+#operator {
+position: fixed;
+width: 22px;
+height: 180px;
+top: 250;
+left: 0;
+}
+
+#operator img {
+border: none;
+}
